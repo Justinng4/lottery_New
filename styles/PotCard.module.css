@@ -1,0 +1,91 @@
+.wrapper {
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #555b6e 0%, #89b0ae 100%);
+  min-height: 200px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 2rem;
+  box-shadow: 10px 10px 20px 0px #ffd6baca;
+  -webkit-box-shadow: 10px 10px 20px 0px #ffd6baca;
+  -moz-box-shadow: 10px 10px 20px 0px #ffd6baca;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #f0f4fa;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pot {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #f0f4fa;
+  text-align: center;
+  flex: 1;
+}
+
+.potAmount {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #ffd6baca;
+  text-align: center;
+}
+
+.btn {
+  background-color: #3e4754;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  place-self: center;
+  color: #f0f4fa;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  border: 1px solid #ffd6baca;
+}
+
+.recentWinnerTitle {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #f0f4fa;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.winner {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #ffd6baca;
+  text-align: center;
+}
+
+.textAccent {
+  color: #ffd6baca;
+}
+
+.drawWinnerBtn {
+  background-color: #242833;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 20%;
+  border: 1px solid #ffd6baca;
+  border-radius: 1.2rem;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #f0f4fa;
+}
